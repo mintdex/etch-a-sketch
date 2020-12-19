@@ -2,18 +2,21 @@
     --grid-columns: 1;
     --grid-rows: 1;
   }
+body { 
+    margin:0;padding:0;
+    background-color: #4980f718;
+    font-family: 'Indie Flower', cursive;
+  }
   
   #container {
-  
+    background-color: cornsilk;
     display: grid;
-    margin-top: 1vh;
-    margin-right: 6vw;
-    height: 49vw;
-    width: 49vw;
+    height: 30vw;
+    width: 30vw;
     box-sizing: content-box;
     grid-template-rows: repeat(var(--grid-rows), auto);
     grid-template-columns: repeat(var(--grid-columns), auto);
-    border: solid;
+    border: solid #FFFACD;
   }
   
   .grid-item {
